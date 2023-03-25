@@ -1,0 +1,17 @@
+{
+ 
+  "writeKey": "---",
+  "readKey": "---",
+  
+  "upload": {  
+    "type": "json",
+    "features": ["filter_untranslated"],
+    "files": "locales/en.json"         
+  },
+  
+  "download": {
+    "includeSourceLang": true,
+    "files": "locales/${lang}.json"
+  }
+  
+}
